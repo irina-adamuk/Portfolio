@@ -1,0 +1,75 @@
+@import "vars";
+
+html {
+    font-size: 15px;
+}
+
+
+body {
+    margin:0;/* 1 rem 15 px так как мы указали 15px в html */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+   margin: 0 0 1rem; 
+}
+
+*,  /* указываем для удобства подсчета размеров */
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Vendor */
+@import "Blocks/vendor/slick";
+
+
+/* Bloks */
+@import "Blocks/container";
+@import "Blocks/header";
+@import "Blocks/user";
+@import "Blocks/nav";
+@import "Blocks/intro";
+@import "Blocks/social";
+@import "Blocks/btn";
+@import "Blocks/works";
+@import "Blocks/portfolio";
+@import "Blocks/work";
+@import "Blocks/about";
+@import "Blocks/reviews";
+@import "Blocks/news";
+@import "Blocks/articles";
+@import "Blocks/footer";
+@import "Blocks/modal";
+@import "Blocks/modal-work";
+@import "Blocks/timeline";
+@import "Blocks/progress-bar";
+@import "Blocks/contact";
+@import "Blocks/form";
+@import "Blocks/burger";
+
+
+
+/* Helpers */
+@import "Blocks/helpers";
+
+
+
+
+
+
+
+
+
+
+
+
